@@ -1,108 +1,441 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CS Credit By Exam | Ying Wu College of Computing</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Eligibility Criteria and Application Process">
-  <link rel="shortcut icon" href="https://computing.njit.edu/favicon.ico" type="image/vnd.microsoft.icon">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"ac968af7b1",applicationID:"542702664"};;/*! For license information please see nr-loader-rum-1.290.1.min.js.LICENSE.txt */
+(()=>{var e,t,r={122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},555:(e,t,r)=>{"use strict";r.d(t,{D:()=>s,f:()=>o});var n=r(384),i=r(122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const s=e=>(0,i.a)(e,a)},324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>a,xv:()=>n});const n="1.290.1",i="PROD",a="CDN"},154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,WN:()=>d,bv:()=>a,gm:()=>o,mw:()=>s,sb:()=>u});var n=r(863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===o?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,d=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)())},241:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(154);const i="newrelic";function a(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>c,Ze:()=>l,x3:()=>u});var n=r(836),i=r(606),a=r(860),o=r(646);const s={};function c(e,t){const r={staged:!1,priority:a.P3[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){e&&s[e]&&(s[e].get(t)&&s[e].delete(t),g(e,t,!1),s[e].size&&f(e))}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(e="",t="feature",r=!1){if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=Array.from(s[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{s[e].delete(t),g(e,t)})))}function g(e,t,r=!0){const a=e?n.ee.get(e):n.ee,s=i.i.handlers;if(!a.aborted&&a.backlog&&s){if(r){const e=a.backlog[t],r=s[t];if(r){for(let t=0;e&&t<e.length;++t)p(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof o.y&&t[0].on(e,t[1])}))}))}}a.isolatedBacklog||delete s[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function p(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}}))}},836:(e,t,r)=>{"use strict";r.d(t,{P:()=>s,ee:()=>c});var n=r(384),i=r(990),a=r(646),o=r(607);const s="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);for(var s=g(n),u=m(e),d=u.length,l=0;l<d;l++)u[l].apply(s,r);var p=v()[o[e]];p&&p.push([f,e,r,s]);return s},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{o[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,s,(()=>new a.y(s))):new a.y(s)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c)},646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},606:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(908);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.d,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(566).bz)()},566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,bz:()=>o});var n=r(154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var s=0;s<e;s++)o.push(a(r,i++).toString(16));return o.join("")}},614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>o,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>a});const n="NRBA",i="SESSION",a=144e5,o=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.debug&&console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t)}r.d(t,{R:()=>n})},701:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,t:()=>o});var n=r(241);const i=new Set,a={};function o(e,t){const r=t.agentIdentifier;a[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),a[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>a,sB:()=>o});var n=r(878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.sp)("load",e,t)}function o(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>a,US:()=>u,Zm:()=>o,bQ:()=>c,dV:()=>s,pV:()=>d});var n=r(154),i=r(863);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function s(){let e=o();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket}),e}function c(e,t){let r=o();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function u(e,t){o()[e]=t}function d(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},773:(e,t,r)=>{"use strict";r.d(t,{z_:()=>a,XG:()=>s,TZ:()=>n,rs:()=>i,xV:()=>o});r(154),r(566),r(384);const n=r(860).K7.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},234:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(836),i=r(687);class a{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},741:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(){return this.#e(i.dT)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}}},261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>u,BL:()=>s,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>h,Pl:()=>n,Tb:()=>l,U2:()=>a,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>o,nb:()=>m,o5:()=>d});const n="api-",i="addPageAction",a="addToTrace",o="addRelease",s="finished",c="interaction",u="log",d="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",m="setApplicationVersion",h="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger"},163:(e,t,r)=>{"use strict";r.d(t,{j:()=>N});var n=r(384),i=r(741);var a=r(555);r(860).K7.genericEvents;const o="experimental.marks",s="experimental.measures",c="experimental.resources",u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(614),l=r(944),f=r(122);const g="[data-nr-mask]",p=e=>(0,f.a)(e,(()=>{const e={feature_flags:[],experimental:{marks:!1,measures:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{allow_registered_children:!0,duplicate_registered_data:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{get capture_marks(){return e.feature_flags.includes(o)||e.experimental.marks},set capture_marks(t){e.experimental.marks=t},get capture_measures(){return e.feature_flags.includes(s)||e.experimental.measures},set capture_measures(t){e.experimental.measures=t},capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(g):""===t||null===t?e.mask_selector=g:(0,l.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var m=r(154),h=r(324);let v=0;const b={buildEnv:h.F3,distMethod:h.Xs,version:h.xv,originTime:m.WN},y={appMetadata:{},customTransaction:void 0,denyList:void 0,disabled:!1,entityManager:void 0,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,get harvestCount(){return++v}},_=e=>{const t=(0,f.a)(e,y),r=Object.keys(b).reduce(((e,t)=>(e[t]={value:b[t],writable:!1,configurable:!0,enumerable:!0},e)),{});return Object.defineProperties(t,r)};var w=r(701);const x=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var k=r(836),A=r(241);const T={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},R=e=>(0,f.a)(e,T),S=new Set;function N(e,t={},r,o){let{init:s,info:c,loader_config:u,runtime:d={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();s=e.init,c=e.info,u=e.loader_config}e.init=p(s||{}),e.loader_config=R(u||{}),c.jsAttributes??={},m.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,a.D)(c);const f=e.init,g=[c.beacon,c.errorBeacon];S.has(e.agentIdentifier)||(f.proxy.assets&&(x(f.proxy.assets),g.push(f.proxy.assets)),f.proxy.beacon&&g.push(f.proxy.beacon),function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach((r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let a=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return a?a(...t):n})}))}(e),(0,n.US)("activatedFeatures",w.B),e.runSoftNavOverSpa&&=!0===f.soft_navigations.enabled&&f.feature_flags.includes("soft_nav")),d.denyList=[...f.ajax.deny_list||[],...f.ajax.block_internal?g:[]],d.ptid=e.agentIdentifier,d.loaderType=r,e.runtime=_(d),S.has(e.agentIdentifier)||(e.ee=k.ee.get(e.agentIdentifier),e.exposed=l,(0,A.W)({agentIdentifier:e.agentIdentifier,drained:!!w.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),S.add(e.agentIdentifier)}},374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>d,K7:()=>c,P3:()=>u,XX:()=>i,Yy:()=>s,df:()=>a,qY:()=>n,v4:()=>o});const n="events",i="jserrors",a="browser/blobs",o="rum",s="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},u={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},d={[c.pageViewEvent]:o,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:a,[c.sessionReplay]:a,[c.logging]:s,[c.genericEvents]:"ins"}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.290.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.290.1.PROD:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}if(!s){c=!0;var f={296:"sha512-q2fvfegk6yt7Qz7X5TrD+WQrNZLwiBJ0KdQV3nTK0pGpT6Iy6jdptRZywJ0lhyaaiPrLVKXFeMJ57UD2cTg94A=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[o]&&(s.integrity=f[o])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,u=0;if(o.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<o.length;u++)a=o[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.290.1.PROD"]=self["webpackChunk:NRBA-1.290.1.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(374);var e=i(566),t=i(741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const a=Object.values(n.K7);var o=i(163);var s=i(908),c=i(863),u=i(261),d=i(241),l=i(944),f=i(701),g=i(773);function p(e,t,i,a){const o=a||i;!o||o[e]&&o[e]!==r.prototype[e]||(o[e]=function(){(0,s.p)(g.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,d.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:u.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function m(e,t,r,n,i){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(i||null===r)&&(0,s.p)(u.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var h=i(687),v=i(234),b=i(289),y=i(154),_=i(384);const w=e=>y.RI&&!0===e?.privacy.cookies_enabled;function x(e){return!!(0,_.dV)().o.MO&&w(e)&&!0===e?.session_trace.enabled}var k=i(389);class A extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise(((t,r)=>{this.ee.on("manual-start-all",(0,k.J)((()=>{(0,h.Ak)(e.agentIdentifier,this.featureName),t()})))})):(0,h.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let o;await this.deferred;try{if(w(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,663));o=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),this.featureName===n.K7.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,o,e.init))return(0,h.Ze)(this.agentIdentifier,this.featureName),void a(!1);const{Aggregate:n}=await t();this.featAggregate=new n(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),a(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,h.Ze)(this.agentIdentifier,this.featureName,!0),a(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)((()=>o()),!0):o()}#t(e,t,r){switch(e){case n.K7.sessionReplay:return x(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var T=i(630);class R extends A{static featureName=T.T;constructor(e){var t;super(e,T.T),t=e,p(u.Fw,(function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,s.p)(u.Pl+u.Fw,[(0,c.t)()],void 0,void 0,t.ee))}),t),this.ee.on("api-send-rum",((e,t)=>(0,s.p)("send-rum",[e,t],void 0,this.featureName,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,108))))}}var S=i(843),N=i(878),E=i(782);class j extends A{static featureName=E.T;constructor(e){super(e,E.T),y.RI&&((0,S.u)((()=>(0,s.p)("docHidden",[(0,c.t)()],void 0,E.T,this.ee)),!0),(0,N.sp)("pagehide",(()=>(0,s.p)("winPagehide",[(0,c.t)()],void 0,E.T,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,350)))))}}class I extends A{static featureName=g.TZ;constructor(e){super(e,g.TZ),y.RI&&document.addEventListener("securitypolicyviolation",(e=>{(0,s.p)(g.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)})),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,373))))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,_.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(R),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===n.K7.softNav)),(0,o.j)(this,e,e.loaderType||"agent"),t=this,p(u.cD,(function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return m(t,e,r,u.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)}),t),function(e){p(u.Dl,(function(t){if("string"==typeof t||null===t)return m(e,"enduser.id",t,u.Dl,!0);(0,l.R)(41,typeof t)}),e)}(this),function(e){p(u.nb,(function(t){if("string"==typeof t||null===t)return m(e,"application.version",t,u.nb,!1);(0,l.R)(42,typeof t)}),e)}(this),function(e){p(u.d3,(function(){e.ee.emit("manual-start-all")}),e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return a.forEach((r=>{t[r]=!!e[r]?.enabled})),t}(this.init),t=[...this.desiredFeatures];t.sort(((e,t)=>n.P3[e.featureName]-n.P3[t.featureName])),t.forEach((t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter((e=>!(e in this.features)));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)}))}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,_.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[R,j,I],loaderType:"lite"})})()})();</script>
+<link rel="shortcut icon" href="https://computing.njit.edu/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Eligibility Criteria and Application Process" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://computing.njit.edu/cs-credit-exam" />
+<link rel="shortlink" href="https://computing.njit.edu/node/336" />
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="format-detection" content="telephone=no">
+  <meta content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" name="viewport">
+
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
-  <style>
-    body { font-family: 'Poppins', Arial, sans-serif; margin: 0; padding: 0; background: #fafafa; color: #222; }
-    .container { max-width: 900px; margin: 40px auto; background: #fff; box-shadow: 0 2px 8px #ddd; border-radius: 6px; padding: 40px; }
-    h1, h4, h5 { color: #b5121b; }
-    a { color: #00519e; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul, ol { margin-bottom: 1.5em; }
-    .subtitle { color: #444; margin-bottom: 0; }
-    .section { margin-bottom: 2em; }
-    @media (max-width: 700px) {
-      .container { padding: 16px; }
+
+  <script src="//use.fontawesome.com/191e5e3ba3.js"></script>
+  <title>CS Credit By Exam | Ying Wu College of Computing</title>
+<style>
+  #skip-link{
+    display:none;
+  }
+</style>
+  <link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/computing/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/computing/files/css/css_WkA3l5PABYsmAT6RuP_eKPA5CHBuLYSgAnfF-uTAwZI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/computing/files/css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/computing/files/css/css_mlueC76HrtQyfQZ1nbw4AyKNfkK7jUCLDrV2FR67KY8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/computing/files/css/css_ZjCF3d78dmq9xNXVpvljBaTQwE07EuBGT-cIWcy1sHY.css" media="print" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/all/themes/academics/css/ie.css?swymen" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://computing.njit.edu/sites/all/themes/academics/css/ie6.css?swymen" media="all" />
+<![endif]-->
+
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
     }
   </style>
+<![endif]-->
+ 
 </head>
-<body>
-  <div class="container">
-    <h1>CS Credit By Exam</h1>
-    <p class="subtitle">Eligibility Criteria and Application Process</p>
-    <div class="section">
-      <h4>1. General Guidelines</h4>
-      <h5>1.1 Eligibility Criteria</h5>
-      <ul>
-        <li><b>Prior Coursework Requirement</b>: CBE consideration is given only when a student has previously taken a similar course, but the credits cannot be used for graduation at NJIT. Examples:
-          <ul>
-            <li>The course was not transferred to NJIT</li>
-            <li>Course credits expired</li>
-            <li>The student switched programs and took a similar course for their previous program</li>
-          </ul>
-        </li>
-        <li><b>Prerequisites Requirement</b>: Student must meet all prerequisites for a course to be eligible for its CBE.</li>
-        <li><b>Ineligibility Conditions:</b>
-          <ul>
-            <li>Students who have previously enrolled in a course at NJIT (current or past semester), unless the credits have expired, are not eligible for the CBE for that course.</li>
-            <li>If a student fails the CBE, they may not retake it and must complete the course at NJIT.</li>
-          </ul>
-        </li>
-      </ul>
-      <h5>1.2 Registration and Approval</h5>
-      <ul>
-        <li><b>How to Register:</b> Register using NJIT's <a href="https://generalssb-prod.ec.njit.edu/BannerExtensibility/customPage/page/stuCreditByExam" target="_blank">Credit-by-Exam Request Form</a>.</li>
-        <li><b>Eligibility Explanation:</b> After registering, forward the confirmation email to your advisor and the approver (see below). In your message, clearly explain your eligibility for the CBE based on the above criteria. This is required for approval.</li>
-        <li><b>Fee:</b> A $50 exam fee will be charged upon request approval.</li>
-        <li><b>Cancellation and Refund:</b> To cancel a CBE registration or request a fee refund (no-show), contact the Office of the Registrar.</li>
-        <li><b>Grading:</b> The CBE is graded pass/fail. To pass:
-          <ul>
-            <li>"C" or better for most courses</li>
-            <li>"B" or better for CS100</li>
-          </ul>
-        </li>
-        <li><b>Course Credits:</b> Successfully completed exams are recorded as transfer credit ("T") with no letter grade.</li>
-      </ul>
-      <p>If you have questions, contact CS CBE Approver: Xiaoning Ding, Associate Professor, at <a href="mailto:xiaoning.ding@njit.edu">xiaoning.ding@njit.edu</a>, or your YWCC advisor at <a href="mailto:ywcc-advising@njit.edu">ywcc-advising@njit.edu</a></p>
-    </div>
-    <div class="section">
-      <h4>2. Course-Specific Guidelines</h4>
-      <h5>2.1 CS 100 Roadmap to Computing</h5>
-      <p>Students must demonstrate proficiency in the material covered in <a href="https://catalog.njit.edu/search/?P=cs+100" target="_blank">CS 100 Roadmap to Computing</a> by either:</p>
-      <ul>
-        <li>Taking CS 100 at NJIT or</li>
-        <li>Taking the CS 100 Credit By Exam and scoring 80% or better</li>
-      </ul>
-      <p>Preparation materials:</p>
-      <ol>
-        <li><a href="https://cs.njit.edu/sites/cs/files/bcd.pdf" target="_blank">Brief Course Description</a></li>
-        <li>Practice exams: 
-          <a href="https://cs.njit.edu/sites/cs/files/final_pe1.pdf" target="_blank">Practice Exam 1</a>, 
-          <a href="https://cs.njit.edu/sites/cs/files/final_pe2.pdf" target="_blank">Practice Exam 2</a>,
-          <a href="https://cs.njit.edu/sites/cs/files/final_pe3.pdf" target="_blank">Practice Exam 3</a>
-        </li>
-        <li>Additional: <a href="//computing.njit.edu/sites/computing/files/cs100_lecture.pdf" target="_blank">Lecture notes</a> and <a href="//computing.njit.edu/sites/computing/files/cs100_homework.pdf" target="_blank">Sample homework</a></li>
-      </ol>
-      <p>Recommended steps:</p>
-      <ol>
-        <li>Go through practice exams and answer all problems.</li>
-        <li>Check answers using an interpreter.</li>
-        <li>If your answers differ, investigate your code tracing.</li>
-      </ol>
-      <p>Additional resources: <a href="//computing.njit.edu/tutoring" target="_blank">On-campus tutoring</a>, <a href="https://www.codecademy.com/" target="_blank">Codecademy</a></p>
-      <p>The exam is offered at the end of Fall/Spring/Summer semesters. Registration closes one week before the exam date.<br>
-      <b>Fall & Spring:</b> See NJIT Final Exam Schedule.<br>
-      <b>Summer 2025:</b> TBD</p>
-      <p>If you do not score at least 80%, you must take CS 100 at NJIT. Questions? Contact Junilda Spirollari, Director of First-Year Computer Science Education: <a href="mailto:junilda.spirollari@njit.edu">junilda.spirollari@njit.edu</a></p>
-      <h5>2.2 CS 113 Intro to Computer Science I</h5>
-      <p>Demonstrate proficiency in CS 113 by:</p>
-      <ul>
-        <li>Taking CS 113 at NJIT or</li>
-        <li>Taking the CS 113 Credit By Exam and scoring 80% or better</li>
-      </ul>
-      <p>Exam is offered at the end of Fall/Spring/Summer semesters. Registration closes one week before the exam date.<br>
-      <b>Fall & Spring:</b> See NJIT Final Exam Schedule.<br>
-      <b>Summer 2025:</b> TBD</p>
-      <p>If you do not score at least 80%, you must take CS 113 at NJIT.<br>
-      Contact: <a href="mailto:junilda.spirollari@njit.edu">junilda.spirollari@njit.edu</a></p>
-      <h5>2.3 CBE for Other Courses</h5>
-      <p>Currently, CBEs for other courses are <b>not available</b>. Future offerings depend on demand and instructor availability.</p>
+
+<body class="corporate sticky-header html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-336 node-type-two-column-alt- computing  " >
+<div class="skip-link" id="skip-link">
+      <a href="#njit-main-content">Skip to main content</a>
+  </div>
+  <div class="wrapper">
+    <script>var ownheader = true; </script>
+		<div class="header-container microsite-header-container" >
+  	<!-- <style>
+  @import "../css/header.min.css";
+  @import "../css/text-only-callout.min.css";
+  @import "../css/text-image-callout.min.css";
+</style>-->
+
+<!--<div w3-include-html="/sites/all/themes/academics/global-includes/bricks/alert-level-site-63b3a3c069.html"></div>-->
+
+<div class="mobile-nav">
+  <div class="slide-wrapper">
+    <div class="logo"><a title="NJIT logo" href="https://www.njit.edu"></a></div>
+    <div class="nav-wrapper">
+      <div class="mobileMenu" data-site-id="" data-trigger=".menu-toggle"></div>
     </div>
   </div>
-</body>
+  <div class="menu-toggle"></div>
+</div>
+
+<header class="main-header">
+  <div class="top-header">
+    <span class="menu-toggle">Menu</span>
+    <div class="logo">
+      <a href="https://www.njit.edu" aria-label="NJIT"><img src="/sites/all/themes/academics/img/logo-plain.svg" alt="NJIT logo"></a>
+      <h2 class="title"><span>Ying Wu College of Computing</span></h2>
+    </div>
+    <span class="search-toggle">Search</span>
+    <nav class="user-navigation" w3-include-html="/sites/all/themes/academics/global-includes/computing/user-nav-microsite-03c725e995.html"></nav>
+    <div class="search-field"><form class="search-form">
+  <div class="form-item">
+    <input placeholder="Search NJIT" class="form-control form-text required" type="text" id="edit-keyword" title="Search NJIT" value="" size="60" maxlength="255">
+    <button type="submit" id="edit-submit" name="op" value="Search" class="form-submit">Search</button>
+  </div>
+</form> </div>
+  </div>
+
+  <div class="mega-nav-container">
+    <div class="mega-nav">
+              
+
+
+<nav class="local-navigation" id="block-menu-block-2" data-collapsible>
+         
+  <a href="/" data-collapsible-toggle>In This Section</a>
+  <div data-collapsible-content>
+     <ul class="menu active-with-children"><li class="first leaf menu-mlid-219"><a href="/" title="">Home</a></li>
+<li class="expanded menu-mlid-1240 active"><a href="/aboutthecollege" title="About the Ying Wu College of Computing">About</a><ul class="menu menu--submenu"><li class="first leaf menu-mlid-1241"><a href="/dean" title="Dean&#039;s Message">Dean&#039;s Message</a></li>
+<li class="leaf has-children menu-mlid-1242"><a href="/people" title="People">People</a></li>
+<li class="leaf menu-mlid-1282"><a href="http://www.cs.njit.edu/" title="Department of Computer Science">Department of Computer Science</a></li>
+<li class="leaf menu-mlid-1736"><a href="https://ds.njit.edu/" title="Department of Data Science">Department of Data Science</a></li>
+<li class="leaf menu-mlid-1281"><a href="http://informatics.njit.edu/" title="Department of Informatics">Department of Informatics</a></li>
+<li class="leaf menu-mlid-2326"><a href="https://jerseycity.njit.edu/" title="">NJIT@JerseyCity</a></li>
+<li class="leaf menu-mlid-1246"><a href="/affiliates" title="Industrial Affiliates">Industrial Affiliates</a></li>
+<li class="leaf has-children menu-mlid-1616"><a href="/corporate-partnerships" title="Corporate Partnerships">Corporate Partnerships</a></li>
+<li class="last leaf menu-mlid-1726"><a href="https://computing.njit.edu/sites/computing/files/YWCC%20Brochure.pdf" title="">YWCC Brochure</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1611 active"><a title="" class="nolink" tabindex="0">Programs</a><ul class="menu menu--submenu"><li class="first leaf has-children menu-mlid-1251"><a href="/undergraduate-degrees" title="Undergraduate Degrees">Undergraduate Degrees</a></li>
+<li class="leaf menu-mlid-1252"><a href="/graduate-degrees" title="Graduate Degrees">Graduate Degrees</a></li>
+<li class="leaf menu-mlid-1253"><a href="/ccsprograms/doctoral" title="Doctoral Degrees">Doctoral Degrees</a></li>
+<li class="leaf menu-mlid-1254"><a href="/undergraduate-minors" title="Undergraduate Minors">Undergraduate Minors</a></li>
+<li class="leaf menu-mlid-1255"><a href="/graduate-certificates" title="Graduate Certificates">Graduate Certificates</a></li>
+<li class="leaf menu-mlid-1256"><a href="/online-offerings" title="Online Offerings">Online Offerings</a></li>
+<li class="leaf menu-mlid-1257"><a href="/part-time-options" title="Part-time Options">Part-time Options</a></li>
+<li class="last leaf has-children menu-mlid-1871"><a href="/high-school-outreach-program">High School Outreach Program</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1259 active"><a title="Research" class="nolink" tabindex="0">Research</a><ul class="menu menu--submenu"><li class="first leaf has-children menu-mlid-2476"><a href="/research-report-2025">Research Report 2025</a></li>
+<li class="leaf menu-mlid-1261"><a href="/student-research-opportunities" title="Student Research Opportunities">Student Research Opportunities</a></li>
+<li class="leaf menu-mlid-1244"><a href="/cooperative-education-co-op" title="Co-Op Experience">Co-Op Experience</a></li>
+<li class="leaf menu-mlid-2346"><a href="/capstone-program">Capstone Program</a></li>
+<li class="leaf menu-mlid-1741"><a href="https://datascience.njit.edu/" title="">Institute for Data Science</a></li>
+<li class="last leaf menu-mlid-1746"><a href="https://futuretechnologies.njit.edu/" title="">Institute for Future Technologies</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1276 active"><a href="/current-students" title="Current Students" class="active-trail active-trail">Current Students</a><ul class="menu menu--submenu"><li class="first leaf has-children active-trail menu-mlid-1262 active"><a href="/advising" title="Advising" class="active-trail active-trail">Advising</a></li>
+<li class="leaf menu-mlid-1277"><a href="/student-clubsorganizations" title="Student Clubs and Organizations">Student Clubs/Organizations</a></li>
+<li class="leaf menu-mlid-1248"><a href="/careers-computing" title="Careers in Computing">Careers in Computing</a></li>
+<li class="leaf menu-mlid-2271"><a href="/deanscholar">Dean’s Scholars Program in YWCC</a></li>
+<li class="leaf menu-mlid-2331"><a href="/emerging-courses-2">Special Topics Classes</a></li>
+<li class="last leaf has-children menu-mlid-1696"><a href="/tutoring">Tutoring</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1274 active"><a href="/news" title="News &amp; Events">News &amp; Events</a><ul class="menu menu--submenu"><li class="first leaf menu-mlid-1289"><a href="/news" title="News">Current News</a></li>
+<li class="leaf menu-mlid-1701"><a href="/newsletter-archive">Newsletter Archive</a></li>
+<li class="last leaf menu-mlid-2306"><a href="/media">In the Media</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-1278"><a href="/contact-us" title="Contact Us">Contact Us</a></li>
+</ul>  </div>
+</nav>
+      
+    </div>
+  </div>
+</header>
+	</div>
+  <div class="main-container" id="njit-main-content" role="main">
+    <div class="region region-page-top">
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV7NVM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>  </div>
+  
+
+
+
+<div id="page-wrapper" class="page-apply">
+	
+  <div id="page">
+        <div  id="breadcrumb"  class="container-main breadcrumb-container clearfix">
+      <ul class="breadcrumbs" role="navigation" aria-label="breadcrumb"><li> <a href="/">Home</a></li><li> <a href="/current-students" title="Current Students">Current Students</a></li><li> <a href="/advising" title="Advising">Advising</a></li><li> <a href="https://computing.njit.edu/cs-credit-exam">CS Credit By Exam</a></li></ul>    </div>
+      
+  
+          
+
+    
+    <div class="container-full-width clearfix">
+    <div class="hero-container">
+      <div class="hero-small-image">
+        <div class="content">
+          <div class="image-wrapper">
+            
+
+  
+          <img typeof="foaf:Image" src="https://computing.njit.edu/sites/computing/files/styles/16x9/public/iStock_000004929105XSmall_6_0.jpeg?itok=W5iDQIuQ" width="416" height="310" alt="" />    
+          </div>
+          <div class="text-block">
+            <!-- <h5 class="subtitle">&nbsp;</h5> -->
+            <h1 class="title">
+                                        	        CS Credit By Exam                                                
+            </h1>
+            <div class="text-block-content">
+               
+
+  
+          <p>Eligibility Criteria and Application Process</p>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-main content-container clearfix">
+    <div class="layout-sidebars layout-sidebar-first">
+      <div class="njit-flex-row">
+        
+                  <div class="njit-flex-col sidebar-first">
+                <a class="lhn-back-to-parent"href="/advising">Advising</a>                    
+
+
+<nav class="local-navigation" id="block-menu-block-1" data-collapsible>
+         
+  <a href="/" data-collapsible-toggle>In This Section</a>
+  <div data-collapsible-content>
+     <ul class="menu active-with-children"><li class="first leaf menu-mlid-2431"><a href="/advising-office-staff">Advising Office</a></li>
+<li class="leaf menu-mlid-1631"><a href="/academic-advisors-undergraduate">Academic Advisors - Undergraduate</a></li>
+<li class="leaf menu-mlid-1636"><a href="/academic-advisors-graduate">Academic Advisors - Graduate</a></li>
+<li class="leaf menu-mlid-2316"><a href="/general-faq">General FAQ</a></li>
+<li class="leaf menu-mlid-1265"><a href="/registration" title="Registration">Registration</a></li>
+<li class="leaf menu-mlid-2321"><a href="/registration-faqs">Registration FAQs</a></li>
+<li class="leaf menu-mlid-1266"><a href="/course-planning" title="Course Planning">Course Planning</a></li>
+<li class="leaf menu-mlid-1267"><a href="/holds" title="Advisor hold Removal">Advisor Hold Removal</a></li>
+<li class="leaf menu-mlid-1268"><a href="/permits" title="Permits">Permits</a></li>
+<li class="leaf menu-mlid-1269"><a href="/taking-courses-another-college" title="Taking Courses at Another College">Taking Courses at Another College</a></li>
+<li class="leaf menu-mlid-1270"><a href="/transferstudents" title="Transfer Students">Transfer Students</a></li>
+<li class="leaf menu-mlid-1272"><a href="/graduation" title="Graduation">Graduation</a></li>
+<li class="leaf menu-mlid-1273"><a href="/feedback" title="Feedback">Feedback</a></li>
+<li class="last leaf active-trail active menu-mlid-2466 active"><a href="/cs-credit-exam" class="active-trail active">CS Credit By Exam</a></li>
+</ul>  </div>
+</nav>
+            
+          </div>
+                
+                <div class="njit-flex-col sidebar-content with-sidebar-second">
+          <div id="header"></div>
+      
+                    
+                    
+          
+
+          
+          
+                    <a id="main-content"></a>
+                      <div class="tabs">
+                          </div>
+                                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-336" class="node node-two-column-alt- node-promoted node-full clearfix" about="/cs-credit-exam" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="CS Credit By Exam" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+	
+			
+		<div>  
+    	<div class="text-paragraph">
+		
+
+  
+          <p><strong>1. General Guidelines</strong></p>
+
+<p><strong><em>1.1 Eligibility Criteria</em></strong></p>
+
+<ul>
+	<li><strong>Prior Coursework Requirement</strong>: CBE consideration is given only when a student has previously taken a similar course, but the credits cannot be used for graduation at NJIT. The following are typical scenarios:
+
+	<ul>
+		<li>The course was not transferred to NJIT</li>
+		<li>Course credits expired</li>
+		<li>The student who switched their program took a similar course required by their previous program.</li>
+	</ul>
+	</li>
+	<li><strong>Prerequisites Requirement</strong>: A student must meet all the prerequisites for a course to be eligible for its CBE.</li>
+	<li><strong>Ineligibility Conditions:</strong>
+	<ul>
+		<li>Students who have previously enrolled in a course at NJIT, either in the current or past semester, are not eligible to take the CBE for that course unless the credits have expired</li>
+		<li>If a student fails the CBE, they are not allowed to retake it and must complete the course at NJIT.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong><em>1.2 Registration and Approval</em></strong></p>
+
+<ul>
+	<li><strong>How to Register:</strong> A student can register a CBE using the NJIT's <strong><a href="https://generalssb-prod.ec.njit.edu/BannerExtensibility/customPage/page/stuCreditByExam" target="_blank">Credit-by-Exam Request Form</a>.</strong></li>
+	<li><strong>Eligibility Explanation:</strong> After registering, students must forward the confirmation email to their advisor and the approver (contact information provided below). In the same message, students must clearly explain their eligibility for the CBE, referencing the Eligibility Criteria outlined above. Providing this explanation is essential for obtaining approval.</li>
+	<li><strong>Fee:</strong> A $50 exam fee will be charged to your account once your request is submitted and approved.</li>
+	<li><strong>Cancellation and Refund</strong>: To cancel a CBE registration and/or request a fee refund due to a no-show, students must contact the Office of the Registrar.</li>
+	<li><strong>Grading:</strong> The CBE is graded on a pass/fail basis. To pass, students must achieve a performance level equivalent to:
+	<ul>
+		<li>A grade of "C" for most courses.</li>
+		<li>A grade of "B" for CS100.</li>
+	</ul>
+	</li>
+	<li><strong>Course Credits</strong>: Successfully completed exams are recorded as transfer credit (‘T’) and do not carry a letter grade.</li>
+</ul>
+
+<h5>If you have any questions regarding the above, please contact CS CBE Approver: Xiaoning Ding, Associate Professor, at <a href="mailto:xiaoning.ding@njit.edu">xiaoning.ding@njit.edu</a>, or your YWCC advisor at <a href="mailto:ywcc-advising@njit.edu">ywcc-advising@njit.edu</a></h5>
+
+<h4><strong>2. <em>Course-Specific Guidelines</em></strong></h4>
+
+<p><strong>2.1 <em>CS 100 Roadmap to Computing</em></strong></p>
+
+<p>The Ying Wu College of Computing wants to ensure that you have a successful transition to your major; therefore, all students must demonstrate proficiency in the material covered in</p>
+
+<p><a href="https://catalog.njit.edu/search/?P=cs+100" target="_blank">CS 100 Roadmap to Computing</a>.</p>
+
+<p>There are two ways to accomplish this:</p>
+
+<ul>
+	<li>Take CS 100 at NJIT or</li>
+	<li>Take the CS 100 Credit By Exam and score 80% or better.</li>
+</ul>
+
+<p>Please use the following materials to prepare for the exam:</p>
+
+<ol>
+	<li><a href="https://cs.njit.edu/sites/cs/files/bcd.pdf" target="_blank">Brief Course Description</a></li>
+	<li>Practice exams (<a href="https://cs.njit.edu/sites/cs/files/final_pe1.pdf" target="_blank">Practice Exam 1</a>, <a href="https://cs.njit.edu/sites/cs/files/final_pe2.pdf" target="_blank">Practice Exam 2</a>,<a href="https://cs.njit.edu/sites/cs/files/final_pe3.pdf" target="_blank"> Practice Exam 3)</a></li>
+	<li>Additional materials on user-defined classes (<a href="//computing.njit.edu/sites/computing/files/cs100_lecture.pdf" target="_blank">Lecture notes</a> and <a href="//computing.njit.edu/sites/computing/files/cs100_homework.pdf" target="_blank">Sample homework</a>)</li>
+</ol>
+
+<p>It is recommended that you:</p>
+
+<ol>
+	<li>First go through the tests and answer all the problems.</li>
+	<li>Then check your answers using an interpreter.</li>
+	<li>In the case the two differ, investigate where your trace of the code went wrong.</li>
+</ol>
+
+<p>You can also use:</p>
+
+<ol>
+	<li><a href="//computing.njit.edu/tutoring" target="_blank">On-campus tutoring service</a></li>
+	<li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+</ol>
+
+<p>The exam is offered three times per year, at the end of the Fall/Spring/Summer semesters, coinciding with the course's final exam. The CBE registration closes one week before the exam date.<br />
+<br />
+* Fall &amp; Spring Semesters: Refer to the NJIT Final Exam Schedule for the exact time and location.<br />
+* Summer 2025: TBD</p>
+
+<p>You will receive your exam grade soon after completing the exam. However, there may be a delay in posting the credits to your NJIT transcript, as the CS department must first submit your results to the Office of the Registrar, which will then process and update your transcript.</p>
+
+<p>If you do not score at least 80%, you will not have an opportunity to retake the exam and will be required to take CS 100 at NJIT.</p>
+
+<p>For detailed information about the CS100 Credit By Exam, please contact Junilda Spirollari, Director of First-Year Computer Science Education, at <a href="mailto:junilda.spirollari@njit.edu">junilda.spirollari@njit.edu</a>.</p>
+
+<p><strong>2.2 <em>CS113 Intro to Computer Science I</em></strong></p>
+
+<p>Students have the opportunity to demonstrate proficiency in the material covered in Introduction to Computer Science I by taking the CBE for CS 113. There are two ways to accomplish this:</p>
+
+<ul>
+	<li>Take CS 113 at NJIT or</li>
+	<li>Take the CS 113 Credit By Exam and score 80% or better.</li>
+</ul>
+
+<p>The exam is offered three times per year, at the end of the Fall/Spring/Summer semesters, coinciding with the course's final exam. The CBE registration closes one week before the exam date.<br />
+<br />
+* Fall &amp; Spring Semesters: Refer to the NJIT Final Exam Schedule for the exact time and location.<br />
+* Summer 2025: TBD</p>
+
+<p>You will receive your exam grade soon after completing the exam. However, there may be a delay in posting the credits to your NJIT transcript, as the CS department must first submit your results to the Office of the Registrar, which will then process and update your transcript.</p>
+
+<p>If you do not score at least 80%, you will not have an opportunity to retake the exam and will be required to take CS 113 at NJIT. For detailed information about the CS113 Credit By Exam, please contact Junilda Spirollari, Director of First-Year Computer Science Education, at <a href="mailto:junilda.spirollari@njit.edu">junilda.spirollari@njit.edu</a>.</p>
+
+<p><strong>2.3 <em>CBE for Other Courses</em></strong></p>
+
+<p>Currently, CBEs for other courses are <strong>not available</strong>. Future offerings depend on student demand and instructor availability.</p>
+    
+	</div>
+		</div>
+		  	
+  </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+                  </div><!-- /.sidebar-content -->
+
+				
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  </div>
+</div>
+
+
+
+  
+
+
+
+
+
+    </div>
+
+  <footer class="footer-container main-footer-container" w3-include-html="/sites/all/themes/academics/global-includes/footer-6cb7356e54.html"></footer>
+  <div w3-include-html="/sites/all/themes/academics/global-includes/bricks/search-8cce715d41.html"></div>
+    <script type="text/javascript" src="https://computing.njit.edu/sites/computing/files/js/js_gEbwb9Y5cZJNuFhqDUE9x58SI1ycJrNq7RWab_gat9g.js"></script>
+<script type="text/javascript" src="https://computing.njit.edu/sites/computing/files/js/js_FG24w7evW1ib938CqfpPV9_m8s-khn57m2_NlAtvdRw.js"></script>
+<script type="text/javascript" src="https://computing.njit.edu/sites/computing/files/js/js_qLdKQR9UUXkvsQ7qmwFKkxBzWS1VwK4Ng51_PHdzHoY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"academics","theme_token":"ztwVEaQQl_tfoci4SlcfAxAw0JCtjFlYZCFW-Egpgy0","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.12\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/themes\/academics\/js\/vendor-top.js":1,"sites\/all\/themes\/academics\/js\/global.js":1,"sites\/all\/themes\/academics\/js\/vendor.js":1,"sites\/all\/themes\/academics\/js\/main.js":1,"sites\/all\/themes\/academics\/components\/static\/js\/component.js":1,"sites\/all\/themes\/academics\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/academics\/css\/vendor.css":1,"sites\/all\/themes\/academics\/css\/main.css":1,"sites\/all\/themes\/academics\/components\/static\/css\/component.css":1,"sites\/all\/themes\/academics\/styles\/styles.css":1,"sites\/all\/themes\/academics\/styles\/print.css":1,"sites\/all\/themes\/academics\/css\/ie.css":1,"sites\/all\/themes\/academics\/css\/ie6.css":1}},"njitSearchDegreeFinder":{"eshost":"https:\/\/computing.njit.edu\/search-api","esindex":"corporate","comparePath":"academics\/compare","degreeFinderPath":""},"jsRootPath":""});
+//--><!]]>
+</script>
+
+
+  </div>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ac968af7b1","applicationID":"542702664","transactionName":"MQRXMEoFV0NUBhFRWwhOdAdMDVZeGgsKXFE5EVQDXTtPWVAS","queueTime":11,"applicationTime":211,"atts":"HUNARgIfRBwXBEcCTxsc","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
